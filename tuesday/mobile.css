@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #4f4f4f;
+    height: 30px;
+}
+.down{
+    background-color: white;
+    display: block;
+    z-index: 1000;
+    border: 1px solid #c7c7c7;
+    margin-top: 12px;
+   
+}
+.flag {
+
+    display: block;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #c7c7c7;
+  
+}
+.down{
+
+    display: none;
+}
+.head:hover .down{
+display: block;
+
+}
+.head{
+    width: 70px;    
+    padding: 7px 10px;
+}
+.head a {
+
+text-decoration: none;
+
+}
+.head span {
+    color: white;
+}
+.head li {
+    width: 75px;
+    height: 35px;
+}
+.down .flag:hover{
+    background-color: #c7c7c7;
+}
+.flag span{
+    color: rgb(97, 97, 97);
+}
+.text{
+    background-color: white;
+    display: block;
+    z-index: 1000;
+    
+    margin-top: 12px;
+   
+}
+.clothes {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    color: black;
+}
+.head:hover  .text {
+    display: block;
+}
+.text {
+    display: none;
+}   
+.head a{
+display: flex;
+color: black;
+    
+}
+.text .clothes {
+    display: flex;  
+}
+.right{
+    display: flex;
+}
